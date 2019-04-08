@@ -1,4 +1,4 @@
-FROM webhippie/caddy:latest-arm64v8@sha256:699b645947000578f1376b1254f192baf3ada0fd6ebb3cc17f115baf3f350cd9
+FROM webhippie/caddy:latest-arm64v8@sha256:72d1d9ec5c6a527472f93dccc293c184c15e6ed6eb62e974a8b4cab2db27b4b2
 
 LABEL maintainer="Thomas Boerger <thomas@webhippie.de>" \
   org.label-schema.name="PHP Caddy" \
