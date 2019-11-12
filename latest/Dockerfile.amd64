@@ -1,4 +1,4 @@
-FROM webhippie/caddy:latest
+FROM webhippie/caddy:latest-amd64
 
 LABEL maintainer="Thomas Boerger <thomas@webhippie.de>" \
   org.label-schema.name="PHP Caddy" \
