@@ -3,7 +3,7 @@
 [![Build Status](https://cloud.drone.io/api/badges/dockhippie/php-caddy/status.svg)](https://cloud.drone.io/dockhippie/php-caddy)
 [![](https://images.microbadger.com/badges/image/webhippie/php-caddy.svg)](https://microbadger.com/images/webhippie/php-caddy "Get your own image badge on microbadger.com")
 
-These are docker images for [PHP](https://secure.php.net) on Caddy running on a [Alpine container](https://registry.hub.docker.com/u/webhippie/alpine/).
+These are docker images for [PHP](https://secure.php.net) on Caddy running on a [Caddy container](https://registry.hub.docker.com/u/webhippie/caddy/).
 
 
 ## Versions
