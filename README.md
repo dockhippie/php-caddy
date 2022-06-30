@@ -1,26 +1,24 @@
-# PHP Caddy
+# php-caddy
 
-[![Build Status](https://cloud.drone.io/api/badges/dockhippie/php-caddy/status.svg)](https://cloud.drone.io/dockhippie/php-caddy)
-[![](https://images.microbadger.com/badges/image/webhippie/php-caddy.svg)](https://microbadger.com/images/webhippie/php-caddy "Get your own image badge on microbadger.com")
+[![Docker Build](https://github.com/dockhippie/php-caddy/actions/workflows/docker.yml/badge.svg)](https://github.com/dockhippie/php-caddy/actions/workflows/docker.yml) [![GitHub Repo](https://img.shields.io/badge/github-repo-yellowgreen)](https://github.com/dockhippie/php-caddy)
 
-These are docker images for [PHP](https://secure.php.net) on Caddy running on a [Caddy container](https://registry.hub.docker.com/u/webhippie/caddy/).
-
+These are docker images for [PHP][upstream] running on our
+[Caddy image][parent].
 
 ## Versions
 
-* [latest](./latest) available as `webhippie/php-caddy:latest`
-
+For the available versions please look at [Docker Hub][dockerhub] or
+[Quay][quayio] or check the existing folders within the
+[GitHub repository][github].
 
 ## Volumes
 
-* /srv/www
-* /etc/php7/custom.d
-
+*  /srv/www
+*  /etc/php7/custom.d
 
 ## Ports
 
-* 8080
-
+*  8080
 
 ## Available environment variables
 
@@ -50,30 +48,31 @@ PHP_TRACK_ERRORS = Off
 PHP_UPLOAD_MAX_FILESIZE = 2G
 ```
 
-
 ## Inherited environment variables
 
-* [webhippie/caddy](https://github.com/dockhippie/caddy#available-environment-variables)
-* [webhippie/alpine](https://github.com/dockhippie/alpine#available-environment-variables)
-
+*  [webhippie/caddy](https://github.com/dockhippie/caddy#available-environment-variables)
+*  [webhippie/alpine](https://github.com/dockhippie/alpine#available-environment-variables)
 
 ## Contributing
 
 Fork -> Patch -> Push -> Pull Request
 
-
 ## Authors
 
-* [Thomas Boerger](https://github.com/tboerger)
-
+*  [Thomas Boerger](https://github.com/tboerger)
 
 ## License
 
 MIT
 
-
 ## Copyright
 
-```
+```console
 Copyright (c) 2015 Thomas Boerger <http://www.webhippie.de>
 ```
+
+[upstream]: https://secure.php.net
+[parent]: https://github.com/dockhippie/caddy
+[dockerhub]: https://hub.docker.com/r/webhippie/php-caddy/tags
+[quayio]: https://quay.io/repository/webhippie/php-caddy?tab=tags
+[github]: https://github.com/dockhippie/php-caddy

@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -eo pipefail
+source /usr/bin/entrypoint
+
+pushd ${CADDY_WEBROOT} >/dev/null
+    echo "> starting caddy service"
+    exec su-exec caddy caddy
+popd >/dev/null
