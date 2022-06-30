@@ -15,6 +15,7 @@ For the available versions please look at [Docker Hub][dockerhub] or
 
 *  /srv/www
 *  /etc/php7/custom.d
+*  /etc/php8/custom.d
 
 ## Ports
 
