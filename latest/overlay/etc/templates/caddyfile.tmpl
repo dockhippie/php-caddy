@@ -1,7 +1,12 @@
 :8080
-root {{ getenv "CADDY_WEBROOT" }}
+root * {{ getenv "CADDY_WEBROOT" }}
 
-log stdout
-errors stderr
+file_server {
+	browse /etc/caddy/browse.tmpl
+}
 
-fastcgi / 127.0.0.1:9000 php
+log {
+	output stdout
+}
+
+php_fastcgi 127.0.0.1:9000

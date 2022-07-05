@@ -5,12 +5,12 @@ log_level = {{ getenv "PHP_LOG_LEVEL" }}
 daemonize = no
 
 [www]
-user = nginx
-group = nginx
+user = caddy
+group = caddy
 
 listen = 0.0.0.0:9000
-listen.owner = nginx
-listen.group = nginx
+listen.owner = caddy
+listen.group = caddy
 listen.mode = {{ getenv "PHP_LISTEN_MODE" }}
 
 pm = ondemand
@@ -28,7 +28,7 @@ ping.path = {{ getenv "PHP_PING_PATH" }}
 ping.response = {{ getenv "PHP_PING_RESPONSE" }}
 {{ end }}
 
-chdir = {{ getenv "NGINX_WEBROOT" }}
+chdir = {{ getenv "CADDY_WEBROOT" }}
 
 env[HOSTNAME] = $HOSTNAME
 env[PATH] = /usr/local/bin:/usr/bin:/bin
