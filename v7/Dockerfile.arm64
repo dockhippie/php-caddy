@@ -1,4 +1,4 @@
-FROM webhippie/caddy:latest-arm64@sha256:e3a0be431c9bc67b210ac6257befafe3e860f8adbc3b13fdce2d40c77c3406d2
+FROM webhippie/caddy:latest-arm64@sha256:f26eff8d62da21e3f58b45fa2b9fe900988de85ca0bdbeb84f4ce4bfec8c43ff
 
 VOLUME ["/etc/php7/custom.d"]
 EXPOSE 8080
