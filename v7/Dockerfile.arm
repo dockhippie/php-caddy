@@ -1,4 +1,4 @@
-FROM ghcr.io/dockhippie/caddy:latest-arm@sha256:f49c4bce368d6bf47d94ee585f46a49846e0123f752e2833fc26f25833f02338
+FROM ghcr.io/dockhippie/caddy:latest-arm@sha256:2f5fe92c2cda8fb99e202a9f295334afeec08b3f722ddbf37c2869e49dc914f7
 
 VOLUME ["/etc/php7/custom.d"]
 EXPOSE 8080
