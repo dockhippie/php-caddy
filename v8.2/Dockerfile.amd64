@@ -1,4 +1,4 @@
-FROM ghcr.io/dockhippie/caddy:latest-amd64@sha256:1f0938586a4f4d918f4de026303f46eaf5c6dc789c1d2263849e62167c305f8c
+FROM ghcr.io/dockhippie/caddy:latest-amd64@sha256:24073095a2d39a4bc86abb0e558a62c1b691a2c155690a6e3991eda9bcff56f7
 
 WORKDIR /srv/www
 CMD ["/usr/bin/container"]
